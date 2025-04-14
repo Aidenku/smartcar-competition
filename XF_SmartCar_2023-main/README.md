@@ -18,8 +18,6 @@
       ```
   + 请使用绝对路径
 ## 参赛人员
-| 姓名 | 专业 | 邮箱                                 
-|--|-|---------------------------------------|-|
 | 张昱轩 | 数据科学与大数据技术 | Yuxuan.Zhang2104@student.xjtlu.edu.cn 
 | 顾羚旦 | 机器人工程 | Lingdan.Gu21@student.xjtlu.edu.cn     
 | 任晋昊 | 数据科学与大数据技术 | Jinhao.Ren21@student.xjtlu.edu.cn     
