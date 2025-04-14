@@ -1,34 +1,62 @@
-# smartcar-competition
+# 🚗 SmartCar Competition 2023
 
-#  XJTLU GMaster Club XF Smart Car Team
+## 🏫 XJTLU GMaster Club - XF Smart Car Team
 
-## 简介
-本项目代码面向2023全国智能汽车大赛 讯飞机器人 智慧农业赛道。<br>
-## 介绍
-## 👨‍💻 我的职责
+This repository contains the full source code and documentation for our participation in the **2023 National SmartCar Competition**, specifically in the **iFLYTEK Robotics – Smart Agriculture Track**.
 
-我在本项目中主要负责以下核心模块的设计与代码实现：
-- **自主导航与避障算法**
-- **路径规划策略与调试**
-- **激光雷达 SLAM 系统集成**
-- **语音播报逻辑编写与调试**
-  
-## 环境配置
-### 视觉环境配置
-+ 配置[Jetson Inference](https://github.com/dusty-nv/jetson-inference)
-    + 请按照github官方文档，使用源码编译的方式进行配置
-    + 不要安装任何的模型权重文件
-    + 不要安装任何的demo
-    + 不要安装pytorch
-+ 配置权重文件
-  +  将权重文件```car.onnx```和标记文件```label.txt```放入```classify_net```文件夹中的car.onnx文件放入```src```文件夹中的```ar_code_server.cpp```中这行代码的位置
-      ```
-     imageNet *net = imageNet::Create(NULL, "your car.onnx", NULL, "your label.txt", "input", "output");
-      ```
-  + 请使用绝对路径
-## 参赛人员
-| 顾羚旦 | 机器人工程 | Lingdan.Gu21@student.xjtlu.edu.cn     
-| 张昱轩 | 数据科学与大数据技术 | Yuxuan.Zhang2104@student.xjtlu.edu.cn 
-| 任晋昊 | 数据科学与大数据技术 | Jinhao.Ren21@student.xjtlu.edu.cn     
-| 梁森韦 | 数据科学与大数据技术 | Jinhao.Ren19@student.xjtlu.edu.cn     
-| 王奕方 | 数据科学与大数据技术 | Yifang.Wang21@student.xjtlu.edu.cn   
+---
+
+## 📌 Project Overview
+
+This project features an intelligent autonomous vehicle designed for smart agricultural tasks, integrating the following core functionalities:
+
+- 🔍 Autonomous navigation based on real-time sensor input
+- 🧠 Path planning for dynamic route adjustments
+- 📡 LiDAR-based SLAM (Simultaneous Localization and Mapping)
+- 🔊 Voice broadcasting system for real-time feedback
+
+---
+
+## 👨‍💻 My Responsibilities
+
+As a core team member, I was responsible for the following modules:
+
+- 🚗 Autonomous navigation and obstacle avoidance algorithms
+- 🧭 Path planning strategy design and tuning
+- 🗺️ SLAM system integration using LiDAR
+- 📢 Voice broadcasting logic implementation and debugging
+
+---
+
+## ⚙️ Environment Setup
+
+### ▶️ Visual Inference Module (Jetson Platform)
+
+We use [Jetson Inference](https://github.com/dusty-nv/jetson-inference) for vehicle and object recognition.
+
+#### Setup Instructions
+
+1. Clone and **build Jetson Inference from source** using the official GitHub guide
+2. **Do not** install:
+   - Pre-trained model weights
+   - Demo applications
+   - PyTorch (install separately if needed)
+3. Download model weights:
+   - Place `car.onnx` and `label.txt` inside the `classify_net` folder
+   - Modify the following line in `src/ar_code_server.cpp` with **absolute paths**:
+
+```cpp
+imageNet *net = imageNet::Create(NULL, "your_absolute_path/car.onnx", NULL, "your_absolute_path/label.txt", "input", "output");
+
+## 👥 Team Members
+
+We are a multidisciplinary team of undergraduate students from Xi’an Jiaotong-Liverpool University (XJTLU), working together under the GMaster Club to participate in the 2023 XF SmartCar Competition – Smart Agriculture Track.
+
+| Name            | Major                                | Email                                   | Responsibility Highlights                  |
+|------------------|----------------------------------------|------------------------------------------|---------------------------------------------|
+| **Lingdan Gu**     | Intelligent Robotics Engineering        | Lingdan.Gu21@student.xjtlu.edu.cn        | SLAM, navigation, path planning, voice system |
+| **Yuxuan Zhang**   | Data Science and Big Data Technology    | Yuxuan.Zhang2104@student.xjtlu.edu.cn    | Machine learning, software integration      |
+| **Jinhao Ren**     | Data Science and Big Data Technology    | Jinhao.Ren21@student.xjtlu.edu.cn        | Data processing, system testing             |
+| **Senwei Liang**   | Data Science and Big Data Technology    | Jinhao.Ren19@student.xjtlu.edu.cn        | Sensor communication, hardware debugging    |
+| **Yifang Wang**    | Data Science and Big Data Technology    | Yifang.Wang21@student.xjtlu.edu.cn       | Hardware wiring, circuit protection design  |
+
