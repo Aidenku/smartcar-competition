@@ -18,10 +18,10 @@
       ```
   + 请使用绝对路径
 ## 参赛人员
-| 姓名 | 专业 | 邮箱                                    | 职务 |
+| 姓名 | 专业 | 邮箱                                 
 |--|-|---------------------------------------|-|
-| 张昱轩 | 数据科学与大数据技术 | Yuxuan.Zhang2104@student.xjtlu.edu.cn | 队长 |
-| 顾羚旦 | 机器人工程 | Lingdan.Gu21@student.xjtlu.edu.cn     | 队员 |
-| 任晋昊 | 数据科学与大数据技术 | Jinhao.Ren21@student.xjtlu.edu.cn     | 队员 |
-| 梁森韦 | 数据科学与大数据技术 | Jinhao.Ren19@student.xjtlu.edu.cn     | 队员 |
-| 王奕方 | 数据科学与大数据技术 | Yifang.Wang21@student.xjtlu.edu.cn    | 队员 |
+| 张昱轩 | 数据科学与大数据技术 | Yuxuan.Zhang2104@student.xjtlu.edu.cn 
+| 顾羚旦 | 机器人工程 | Lingdan.Gu21@student.xjtlu.edu.cn     
+| 任晋昊 | 数据科学与大数据技术 | Jinhao.Ren21@student.xjtlu.edu.cn     
+| 梁森韦 | 数据科学与大数据技术 | Jinhao.Ren19@student.xjtlu.edu.cn     
+| 王奕方 | 数据科学与大数据技术 | Yifang.Wang21@student.xjtlu.edu.cn    
