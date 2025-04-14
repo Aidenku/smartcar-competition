@@ -55,8 +55,8 @@ We are a multidisciplinary team of undergraduate students from Xi’an Jiaotong-
 | Name            | Major                                | Email                                   | Responsibility Highlights                  |
 |------------------|----------------------------------------|------------------------------------------|---------------------------------------------|
 | **Lingdan Gu**     | Intelligent Robotics Engineering        | Lingdan.Gu21@student.xjtlu.edu.cn        | SLAM, navigation, path planning, voice system |
-| **Yuxuan Zhang**   | Data Science and Big Data Technology    | Yuxuan.Zhang2104@student.xjtlu.edu.cn    | Machine learning, software integration      |
+| **Yuxuan Zhang**   | Data Science and Big Data Technology    | Yuxuan.Zhang2104@student.xjtlu.edu.cn    | Machine learning, Computer vision     |
 | **Jinhao Ren**     | Data Science and Big Data Technology    | Jinhao.Ren21@student.xjtlu.edu.cn        | Data processing, system testing             |
-| **Senwei Liang**   | Data Science and Big Data Technology    | Jinhao.Ren19@student.xjtlu.edu.cn        | Sensor communication, hardware debugging    |
-| **Yifang Wang**    | Data Science and Big Data Technology    | Yifang.Wang21@student.xjtlu.edu.cn       | Hardware wiring, circuit protection design  |
+| **Senwei Liang**   | Data Science and Big Data Technology    | Jinhao.Ren19@student.xjtlu.edu.cn        | voice system, Code framework construction    |
+| **Yifang Wang**    | Data Science and Big Data Technology    | Yifang.Wang21@student.xjtlu.edu.cn       | Adjust parameters, path planning|
 
